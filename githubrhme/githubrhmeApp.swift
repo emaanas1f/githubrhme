@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct githubrhmeApp: App {
+struct MapofRights: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

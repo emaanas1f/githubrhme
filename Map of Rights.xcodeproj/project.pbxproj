@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9480B5BB2C46F6FF00623B33 /* map1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480B5BA2C46F6FF00623B33 /* map1.swift */; };
+		94C292752C48379900EBF420 /* usa1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C292742C48379900EBF420 /* usa1.swift */; };
+		94C292772C4837A500EBF420 /* nigeria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C292762C4837A500EBF420 /* nigeria.swift */; };
+		94C292792C4837B000EBF420 /* india.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C292782C4837B000EBF420 /* india.swift */; };
+		94C2927B2C4837BB00EBF420 /* women1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C2927A2C4837BB00EBF420 /* women1.swift */; };
 		94D0DEF12C41AED800520DFF /* githubrhmeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D0DEF02C41AED800520DFF /* githubrhmeApp.swift */; };
 		94D0DEF32C41AED800520DFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D0DEF22C41AED800520DFF /* ContentView.swift */; };
 		94D0DEF52C41AEDA00520DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D0DEF42C41AEDA00520DFF /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9480B5BA2C46F6FF00623B33 /* map1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map1.swift; sourceTree = "<group>"; };
+		94C292742C48379900EBF420 /* usa1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usa1.swift; sourceTree = "<group>"; };
+		94C292762C4837A500EBF420 /* nigeria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nigeria.swift; sourceTree = "<group>"; };
+		94C292782C4837B000EBF420 /* india.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = india.swift; sourceTree = "<group>"; };
+		94C2927A2C4837BB00EBF420 /* women1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = women1.swift; sourceTree = "<group>"; };
 		94D0DEED2C41AED800520DFF /* githubrhme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = githubrhme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D0DEF02C41AED800520DFF /* githubrhmeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubrhmeApp.swift; sourceTree = "<group>"; };
 		94D0DEF22C41AED800520DFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +45,10 @@
 		94D0DEE42C41AED800520DFF = {
 			isa = PBXGroup;
 			children = (
+				94C292742C48379900EBF420 /* usa1.swift */,
+				94C292762C4837A500EBF420 /* nigeria.swift */,
+				94C292782C4837B000EBF420 /* india.swift */,
+				94C2927A2C4837BB00EBF420 /* women1.swift */,
 				94D0DEEF2C41AED800520DFF /* githubrhme */,
 				94D0DEEE2C41AED800520DFF /* Products */,
 			);
@@ -53,6 +67,7 @@
 			children = (
 				94D0DEF02C41AED800520DFF /* githubrhmeApp.swift */,
 				94D0DEF22C41AED800520DFF /* ContentView.swift */,
+				9480B5BA2C46F6FF00623B33 /* map1.swift */,
 				94D0DEF42C41AEDA00520DFF /* Assets.xcassets */,
 				94D0DEF62C41AEDA00520DFF /* Preview Content */,
 			);
@@ -102,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94D0DEE82C41AED800520DFF /* Build configuration list for PBXProject "githubrhme" */;
+			buildConfigurationList = 94D0DEE82C41AED800520DFF /* Build configuration list for PBXProject "Map of Rights" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,6 +154,11 @@
 			files = (
 				94D0DEF32C41AED800520DFF /* ContentView.swift in Sources */,
 				94D0DEF12C41AED800520DFF /* githubrhmeApp.swift in Sources */,
+				9480B5BB2C46F6FF00623B33 /* map1.swift in Sources */,
+				94C292752C48379900EBF420 /* usa1.swift in Sources */,
+				94C292772C4837A500EBF420 /* nigeria.swift in Sources */,
+				94C292792C4837B000EBF420 /* india.swift in Sources */,
+				94C2927B2C4837BB00EBF420 /* women1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"githubrhme/Preview Content\"";
@@ -297,6 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"githubrhme/Preview Content\"";
@@ -323,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94D0DEE82C41AED800520DFF /* Build configuration list for PBXProject "githubrhme" */ = {
+		94D0DEE82C41AED800520DFF /* Build configuration list for PBXProject "Map of Rights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94D0DEF92C41AEDA00520DFF /* Debug */,

@@ -30,31 +30,22 @@ struct map1: View {
         NavigationView {
             ZStack {
                 Map {
-                        Marker(coordinate: .usa) {
-                            NavigationLink(destination: usa1()) {
-                                Text("U.S.A.")
-                            }
-                        }
-                        
-                        Marker(coordinate: .nigeria) {
-                            Label("Nigeria", systemImage: "mappin")
-                        }
-                        
-                        Marker(coordinate: .India) {
-                            Label("India", systemImage: "mappin")
-                        }
-                }
-                VStack{
-                    NavigationLink(destination: usa1()) {
-                        Text("usa")
+                    Annotation("", coordinate: .usa) {NavigationLink(destination: usa()) {
+                        Text("U.S.A")
+                    }}
+                    Marker(coordinate: .usa) {}
+                         
+                    Annotation("", coordinate: .India) {NavigationLink(destination: india1()) {
+                        Text("India")
+                    }}
+                    Marker(coordinate: .India) {}
+                       
+                    Annotation("", coordinate: .nigeria) {NavigationLink(destination: nigeria1()) {
+                        Text("Nigeria")
+                    }}
+                    Marker(coordinate: .nigeria) {}
                     }
-                    NavigationLink(destination: india()) {
-                        Text("india")
-                    }
-                    NavigationLink(destination: nigeria()) {
-                        Text("nigeria")
-                    }
-                }
+
             }
         }
     }

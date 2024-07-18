@@ -11,6 +11,7 @@ struct ContentView: View {
     var body: some View {
         let BabyBlue = Color(red: 0.7, green: 0.9, blue: 8.0)
         let Bpink = Color(red: 9.9, green: 0.4, blue: 0.7)
+        let Bpink2 = Color(red: 9.9, green: 0.5, blue: 0.75)
         NavigationStack{
             ZStack {
                 Color(BabyBlue)
@@ -33,6 +34,12 @@ struct ContentView: View {
                             .foregroundColor(Bpink)
                 }
                 .padding(.top, 250.0)
+                Spacer()
+                NavigationLink(destination: info1()) {Text("ABOUT US")
+                            .font(.system(size: 12, weight: .bold, design: .serif))
+                            .foregroundColor(Bpink2)
+                }
+                .padding(.top, 450.0)
             }
         }
         }

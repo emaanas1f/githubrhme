@@ -32,6 +32,7 @@ struct usa1: View {
                     .font(.system(size: 15, weight: .regular, design: .serif))
                     .multilineTextAlignment(.leading)
                     .padding([.leading, .bottom, .trailing], 17.0)
+                
             }
             .padding()
             .background(Rectangle()
@@ -40,8 +41,9 @@ struct usa1: View {
             .shadow(radius: 17)
             .padding()
         }
+        }
     }
-}
+
 #Preview {
     usa1()
 }

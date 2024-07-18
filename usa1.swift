@@ -123,6 +123,7 @@ struct usa1: View {
             .background(Rectangle()
                 .foregroundColor(.white))
         }
+        .edgesIgnoringSafeArea(.top)
     }
 }
     

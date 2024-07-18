@@ -14,7 +14,7 @@ struct nigeria: View {
             
             ScrollView{
                 ZStack{
-                    Image("nigeria")
+                    Image("nigeria2")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                     
@@ -22,7 +22,7 @@ struct nigeria: View {
                         .font(.system(size: 30, weight: .bold, design: .serif))
                         .foregroundColor(bBlue)
                         .multilineTextAlignment(.center)
-                        .padding(.top, 185.0)
+                        .padding(.top, 150.0)
                         .shadow(color: .black, radius: 20)
                 }
                 Text("Overview")
@@ -123,6 +123,7 @@ struct nigeria: View {
             .background(Rectangle()
                 .foregroundColor(.white))
         }
+        .edgesIgnoringSafeArea(.top)
     }
 }
     

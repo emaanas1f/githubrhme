@@ -23,7 +23,7 @@ struct india: View {
                         .foregroundColor(bBlue)
                         .multilineTextAlignment(.center)
                         .padding(.top, 150.0)
-                        .shadow(color: .black, radius: 20)
+                        .shadow(color: .black, radius: 25)
                 }
                 Text("Overview")
                 .font(.system(size: 15, weight: .bold, design: .serif))
@@ -123,6 +123,7 @@ struct india: View {
             .background(Rectangle()
                 .foregroundColor(.white))
         }
+        .edgesIgnoringSafeArea(.top)
     }
 }
     

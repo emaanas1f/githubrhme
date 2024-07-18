@@ -29,13 +29,13 @@ struct ContentView: View {
                         .foregroundColor(Bpink)
                 }
                 .padding(.top, 150.0)
-                NavigationLink(destination: women1()) {Text("REVOLUTIONARY WOMEN")
+                NavigationLink(destination: women()) {Text("REVOLUTIONARY WOMEN")
                             .font(.system(size: 17, weight: .bold, design: .serif))
                             .foregroundColor(Bpink)
                 }
                 .padding(.top, 250.0)
                 Spacer()
-                NavigationLink(destination: info1()) {Text("ABOUT US")
+                NavigationLink(destination: info()) {Text("ABOUT US")
                             .font(.system(size: 12, weight: .bold, design: .serif))
                             .foregroundColor(Bpink2)
                 }

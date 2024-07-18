@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9464912B2C49B095004690AA /* women.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464912A2C49B095004690AA /* women.swift */; };
+		9464912D2C49B0DA004690AA /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9464912C2C49B0DA004690AA /* info.swift */; };
 		9480B5BB2C46F6FF00623B33 /* map1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9480B5BA2C46F6FF00623B33 /* map1.swift */; };
 		94AE1FA42C48C68B008176EC /* info1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE1FA32C48C68B008176EC /* info1.swift */; };
 		94AE1FA62C48C855008176EC /* usa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AE1FA52C48C855008176EC /* usa.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9464912A2C49B095004690AA /* women.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = women.swift; sourceTree = "<group>"; };
+		9464912C2C49B0DA004690AA /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
 		9480B5BA2C46F6FF00623B33 /* map1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map1.swift; sourceTree = "<group>"; };
 		94AE1FA32C48C68B008176EC /* info1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info1.swift; sourceTree = "<group>"; };
 		94AE1FA52C48C855008176EC /* usa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usa.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 		94D0DEE42C41AED800520DFF = {
 			isa = PBXGroup;
 			children = (
+				9464912A2C49B095004690AA /* women.swift */,
+				9464912C2C49B0DA004690AA /* info.swift */,
 				94AE1FA92C48C93E008176EC /* india1.swift */,
 				94AE1FA72C48C914008176EC /* nigeria1.swift */,
 				94AE1FA52C48C855008176EC /* usa.swift */,
@@ -167,11 +173,13 @@
 				94D0DEF32C41AED800520DFF /* ContentView.swift in Sources */,
 				94D0DEF12C41AED800520DFF /* githubrhmeApp.swift in Sources */,
 				9480B5BB2C46F6FF00623B33 /* map1.swift in Sources */,
+				9464912D2C49B0DA004690AA /* info.swift in Sources */,
 				94AE1FA42C48C68B008176EC /* info1.swift in Sources */,
 				94C292752C48379900EBF420 /* usa1.swift in Sources */,
 				94AE1FA82C48C914008176EC /* nigeria1.swift in Sources */,
 				94AE1FAA2C48C93E008176EC /* india1.swift in Sources */,
 				94C292772C4837A500EBF420 /* nigeria.swift in Sources */,
+				9464912B2C49B095004690AA /* women.swift in Sources */,
 				94AE1FA62C48C855008176EC /* usa.swift in Sources */,
 				94C292792C4837B000EBF420 /* india.swift in Sources */,
 				94C2927B2C4837BB00EBF420 /* women1.swift in Sources */,
